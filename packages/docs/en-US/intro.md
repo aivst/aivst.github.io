@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Product Introduction
-description: AI‑VP VitePress extended theme, solution for LLM, RAG, Agent knowledge‑base documentation
+description: AIVST VitePress extended theme, solution for LLM, RAG, Agent knowledge‑base documentation
 heroIcon: tabler--brain
 heroColor: primary
 heroSize: lg
@@ -10,7 +10,7 @@ maxWidth: max-w-7xl
 
 # Product Features
 
-AI‑VP is an open‑source set of extended themes and components based on VitePress. It is specially built for building AI technical knowledge bases and LLM / RAG / Agent tutorial websites.
+AIVST is an open‑source set of extended themes and components based on VitePress. It is specially built for building AI technical knowledge bases and LLM / RAG / Agent tutorial websites.
 
 ## ✨ Theme Capabilities
 

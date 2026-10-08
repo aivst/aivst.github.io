@@ -1,7 +1,7 @@
 ---
 layout: sponsor
 title: 支持我们
-description: 感谢您的帮助，请考虑赞助 AI‑VP
+description: 感谢您的帮助，请考虑赞助 AIVST
 paymentMethods:
   wechat:
     name: 微信支付
@@ -67,7 +67,7 @@ sponsors:
     date: "2024-01-13"
 ---
 
-# 🥇 支持 AI‑VP
+# 🥇 支持 AIVST
 
 感谢你的打赏与赞助，祝你们早日升职加薪，登临人生绝颠。🙏🙏🙏
 
@@ -89,7 +89,7 @@ sponsors:
 ### 其他支持方式
 
 - **Star 组织仓库** - 在 GitHub 给相关项目点星
-- **分享推荐** - 向朋友和同事推荐 AI‑VP
+- **分享推荐** - 向朋友和同事推荐 AIVST
 - **报告问题** - 帮助我们发现和修复主题、文档的问题
 - **贡献代码** - 提交 Pull Request 改进主题组件
 - **完善文档** - 补充、校对AI相关技术教程

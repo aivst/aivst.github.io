@@ -1,21 +1,21 @@
 ---
 layout: page
-title: About AI‑VP
+title: About AIVST
 hero:
-  title: About AI‑VP
+  title: About AIVST
   description: Learn about our mission and vision
   icon: icon-[tabler--info-circle]
   color: primary
   align: center
 ---
 
-# About AI‑VP
+# About AIVST
 
-AI‑VP is a modern open‑source VitePress theme ecosystem built for private AI knowledge‑base documentation scenarios.
+AIVST is a modern open‑source VitePress theme ecosystem built for private AI knowledge‑base documentation scenarios.
 
 ## Design Philosophy
 
-We believe great AI documentation should balance ease‑of‑use, reading experience and feature richness. AI‑VP is committed to delivering:
+We believe great AI documentation should balance ease‑of‑use, reading experience and feature richness. AIVST is committed to delivering:
 
 - **Content‑Centered** — Make your AI‑related documents the top priority
 - **Feature‑Rich** — Cover markdown writing, Mermaid diagrams, local search and custom page layouts
@@ -54,7 +54,7 @@ We believe great AI documentation should balance ease‑of‑use, reading experi
 
 ## Development Team
 
-AI‑VP is developed and maintained by the open‑source community team. We focus on AI knowledge‑base documentation solutions, aiming to build convenient theme tools for AI‑tech enthusiasts.
+AIVST is developed and maintained by the open‑source community team. We focus on AI knowledge‑base documentation solutions, aiming to build convenient theme tools for AI‑tech enthusiasts.
 
 ## Tech Stack
 
@@ -75,11 +75,11 @@ AI‑VP is developed and maintained by the open‑source community team. We focu
 
 ## License
 
-AI‑VP is released under the MIT License. You are free to use, modify and distribute this project for personal and open‑source purposes.
+AIVST is released under the MIT License. You are free to use, modify and distribute this project for personal and open‑source purposes.
 
 ## Contact Us
 
-‑ **GitHub**: [https://github.com/AI‑VP](https://github.com/AI‑VP)
+‑ **GitHub**: [https://github.com/AIVST](https://github.com/AIVST)
 ‑ **Documentation**: [Documentation Homepage](./)
-‑ **Issues**: [GitHub Issues](https://github.com/AI‑VP/issues)
-Thank you for using AI‑VP!
+‑ **Issues**: [GitHub Issues](https://github.com/AIVST/issues)
+Thank you for using AIVST!

@@ -1,11 +1,11 @@
-import { vpTheme } from '@ai-vp/vptheme/config'
+import { vpTheme } from '@aivst/vptheme/config'
 const isGitHub = process.env.GITHUB_ACTIONS === 'true'
 const BASE = isGitHub ? '/themes/' : '/'
 export default vpTheme({
   base: '/',
 
   // 站点配置
-  title: 'AI-VP',
+  title: 'AIVST',
   description: '开源AI知识库生态 | 基于VitePress构建LLM、RAG、Agent实战文档',
 
   head: [
@@ -31,40 +31,25 @@ export default vpTheme({
     root: {
       label: '简体中文',
       lang: 'zh-CN',
-      title: 'AI-VP',
+      title: 'AIVST',
       description: '开源AI知识库生态，基于VitePress，写LLM、RAG、Agent、Ollama实战教程',
-      link: '/zh-CN/',
+      link: '/',
       themeConfig: {
         // 顶部导航
        nav: [
-              { text: '首页', link: '/zh-CN/' },
-              { text: '产品介绍', link: '/zh-CN/intro' },
-              { text: '更新日志', link: '/zh-CN/changelog' },
-              { text: '关于我们', link: '/zh-CN/about' },
-              { text: '支持赞助', link: '/zh-CN/sponsor' },
-              { text: '免责声明', link: '/zh-CN/disclaimer' },
+              { text: '首页', link: '/' },
+              { text: '产品介绍', link: '/intro' },
+              { text: '更新日志', link: '/changelog' },
+              { text: '关于我们', link: '/about' },
+              { text: '支持赞助', link: '/sponsor' },
+              { text: '免责声明', link: '/disclaimer' },
             ],
-        // 侧边栏
-        sidebar: {
-          '/zh-CN/': [
-            {
-              text: '导航菜单',
-              items: [
-                { text: '产品介绍', link: '/zh-CN/intro' },
-                { text: '更新日志', link: '/zh-CN/changelog' },
-                { text: '关于我们', link: '/zh-CN/about' },
-                { text: '支持赞助', link: '/zh-CN/sponsor' },
-                { text: '免责声明', link: '/zh-CN/disclaimer' },
-              ]
-            }
-          ]
-        }
       }
     },
     'en-US': {
       label: 'English',
       lang: 'en-US',
-      title: 'AI-VP',
+      title: 'AIVST',
       description: 'Open-source AI knowledge ecosystem built on VitePress for LLM, RAG & Agent',
       link: '/en-US/',
       themeConfig: {
@@ -75,31 +60,7 @@ export default vpTheme({
           { text: 'Changelog', link: '/en-US/changelog' },
           { text: 'Sponsor', link: '/en-US/sponsor' },
           { text: 'Disclaimer', link: '/en-US/disclaimer' },
-        ],
-        sidebar: {
-          '/en-US/': [
-            {
-              text: 'Our Projects',
-              items: [
-                { text: 'Home', link: '/en-US/' },
-                { text: 'Product Introduction', link: '/en-US/intro' },
-                { text: 'About', link: '/en-US/about' },
-                { text: 'Changelog', link: '/en-US/changelog' },
-                { text: 'Sponsor', link: '/en-US/sponsor' },
-                { text: 'Disclaimer', link: '/en-US/disclaimer' },
-              ]
-            }
-          ],
-          '/en-US/guide/': [
-            {
-              text: 'Guide',
-              items: [
-                { text: 'Quick Start', link: '/en-US/guide/' },
-                { text: 'Homepage', link: '/en-US/guide/home' }
-              ]
-            }
-          ]
-        }
+        ],        
       }
     }
   },
@@ -135,11 +96,11 @@ export default vpTheme({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/AI-VP' }
+      { icon: 'github', link: 'https://github.com/AIVST' }
     ],
 
     footer: {
-      copyright: 'Copyright © 2026 <a href="https://github.com/AI-VP">AI-VP Organization</a>'
+      copyright: 'Copyright © 2026 <a href="https://github.com/AIVST">AIVST Organization</a>'
     }
   }
 })

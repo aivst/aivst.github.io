@@ -8,13 +8,13 @@ heroColor: primary
 heroSize: md
 ---
 
-# 关于 AI‑VP
+# 关于 AIVST
 
-AI‑VP 是面向AI知识库深度定制的 VitePress 开源主题生态。
+AIVST 是面向AI知识库深度定制的 VitePress 开源主题生态。
 
 ## 设计理念
 
-我们相信好的文档不仅需要内容丰富，更需要优秀的阅读体验。AI‑VP 致力于提供：
+我们相信好的文档不仅需要内容丰富，更需要优秀的阅读体验。AIVST 致力于提供：
 
 - **简洁优雅** - 干净的设计语言，突出内容本身
 - **功能完整** - 提供AI技术文档所需的所有功能
@@ -50,7 +50,7 @@ AI‑VP 是面向AI知识库深度定制的 VitePress 开源主题生态。
 
 ## 开发团队
 
-AI‑VP 由开源社区团队开发和维护。我们是一个专注于AI开源项目的技术团队，致力于为开发者搭建优质的知识库文档工具。
+AIVST 由开源社区团队开发和维护。我们是一个专注于AI开源项目的技术团队，致力于为开发者搭建优质的知识库文档工具。
 
 ## 技术栈
 
@@ -70,10 +70,10 @@ AI‑VP 由开源社区团队开发和维护。我们是一个专注于AI开源�
 
 ## 许可证
 
-AI‑VP 采用 MIT 许可证，您可以自由使用、修改和分发。
+AIVST 采用 MIT 许可证，您可以自由使用、修改和分发。
 
 ## 联系我们
 
-- **GitHub**: [https://github.com/AI‑VP](https://github.com/AI‑VP)
-- **问题反馈**: [GitHub Issues](https://github.com/AI‑VP/issues)
-  感谢您使用 AI‑VP！
+- **GitHub**: [https://github.com/AIVST](https://github.com/AIVST)
+- **问题反馈**: [GitHub Issues](https://github.com/AIVST/issues)
+  感谢您使用 AIVST！

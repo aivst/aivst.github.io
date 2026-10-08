@@ -9,9 +9,8 @@
 </p>
 
 <p align="center">
-  <a href="https://duxweb.github.io/vitepress-theme/" target="_blank">📖 Documentation</a> ·
-  <a href="https://github.com/duxweb/vitepress-theme" target="_blank">🏠 GitHub</a> ·
-  <a href="https://www.dux.cn" target="_blank">🌐 Website</a>
+  <a href="https://aivst.github.io/" target="_blank">📖 Documentation</a> ·
+  <a href="https://github.com/aivst/" target="_blank">🏠 GitHub</a> · 
 </p>
 
 <p align="center">
@@ -20,10 +19,10 @@
 
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg" />
-  <img alt="VitePress" src="https://img.shields.io/badge/VitePress-1.x-3b82f6" />
+  <img alt="VitePress" src="https://img.shields.io/badge/vp1.x-3b82f6" />
   <img alt="Node" src="https://img.shields.io/badge/Node-18%2B-333" />
   <img alt="PNPM" src="https://img.shields.io/badge/PNPM-9-ffa500" />
-  <img alt="Stars" src="https://img.shields.io/github/stars/duxweb/vitepress-theme?style=social" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/aivst/vptheme?style=social" />
 </p>
 
 ---
@@ -43,7 +42,7 @@
 ## 🧱 Monorepo Structure
 
 ```
-vitepress-monorepo/
+vpmonorepo/
 ├─ packages/
 │  ├─ theme/     # Theme source (published package)
 │  └─ docs/      # Documentation site (demo & docs)
@@ -51,7 +50,7 @@ vitepress-monorepo/
 └─ README.md / README.en.md
 ```
 
-> Docs deploy to `https://duxweb.github.io/vitepress-theme/` by default.
+> Docs deploy to `https://aivst.github.io/` by default.
 
 ---
 
@@ -60,33 +59,34 @@ vitepress-monorepo/
 ### 1. Install
 
 ```bash
-pnpm add @duxweb/vitepress-theme
+pnpm add @aivst/vptheme
 # or
-npm i @duxweb/vitepress-theme
+npm i @aivst/vptheme
 ```
 
 ### 2. Enable the theme
 
 ```ts
 // .vitepress/theme/index.ts
-import theme from '@duxweb/vitepress-theme'
-import '@duxweb/vitepress-theme/dist/index.css'
+import theme from "@aivst/vptheme";
+import "@aivst/vptheme/dist/index.css";
 
 export default {
-  extends: theme
-}
+  extends: theme,
+};
 ```
 
 ### 3. Minimal config (recommended)
-Automatically injects `vite.ssr.noExternal`, `optimizeDeps.exclude`, and enables Mermaid runtime rendering (powered by `vitepress-mermaid-renderer`, GPL-3.0-only).
+
+Automatically injects `vite.ssr.noExternal`, `optimizeDeps.exclude`, and enables Mermaid runtime rendering (powered by `vpmermaid-renderer`, GPL-3.0-only).
 
 ```ts
 // .vitepress/config.mts
-import { withDuxTheme } from '@duxweb/vitepress-theme/config'
+import { withDuxTheme } from "@aivst/vptheme/config";
 
 export default withDuxTheme({
   // your config...
-})
+});
 ```
 
 ### 4. Homepage example
@@ -127,21 +127,22 @@ pnpm preview
 ```
 
 > The docs build auto-sets `base` by environment:
+>
 > - Local: `/`
-> - GitHub Pages: `/vitepress-theme/`
+> - GitHub Pages: `/vptheme/`
 
 ---
 
 ## 🧩 Layouts & Features
 
-| Layout | Use Case | Notes |
-|---|---|---|
-| `home` | Homepage | Hero / Features / QuickStart |
-| `doc` | Docs | Sidebar / TOC / Doc footer |
-| `page` | Single page | Centered content + PageHero |
-| `sponsor` | Sponsor | Payment methods / supporters / stats |
-| `changelog` | Releases | Version history / categories |
-| `jump` | Language jump | Detect & redirect to preferred language |
+| Layout      | Use Case      | Notes                                   |
+| ----------- | ------------- | --------------------------------------- |
+| `home`      | Homepage      | Hero / Features / QuickStart            |
+| `doc`       | Docs          | Sidebar / TOC / Doc footer              |
+| `page`      | Single page   | Centered content + PageHero             |
+| `sponsor`   | Sponsor       | Payment methods / supporters / stats    |
+| `changelog` | Releases      | Version history / categories            |
+| `jump`      | Language jump | Detect & redirect to preferred language |
 
 See the online docs for more examples and API.
 
@@ -153,10 +154,11 @@ This repo ships with `.github/workflows/deploy-docs.yml`.
 
 - Triggers: push to `main` or manual run
 - Artifact: `packages/docs/.vitepress/dist`
-- URL: `https://duxweb.github.io/vitepress-theme/`
+- URL: `https://aivst.github.io/`
 
 If deploying in your own repo, make sure:
-- VitePress `base` matches your repo name (e.g., `/vitepress-theme/`)
+
+- VitePress `base` matches your repo name (e.g., `/vptheme/`)
 - Actions has Pages permissions and uploads the dist
 
 ---
@@ -178,5 +180,5 @@ Issues and PRs are welcome:
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://www.dux.cn" target="_blank">DuxWeb</a>
+  Made with ❤️ by <a href="https:/aivst.github.io" target="_blank">aivst</a>
 </p>

@@ -1,9 +1,9 @@
 ---
 layout: home
-title: AI‑VP
+title: AIVST
 titleTemplate: Open Source AI Knowledge Ecosystem · VitePress
 hero:
-  name: AI‑VP
+  name: AIVST
   text: Open Source AI Knowledge Ecosystem
   tagline: Build elegant AI technical docs for LLM, RAG and Agent
   subtitle: 🎉 Open Source Organization
@@ -27,34 +27,34 @@ features:
     color: blue
     title: AI Docs Theme
     details: Custom VitePress theme components for large model knowledge base
-    link: /en-US/project/themes
+
   - icon: paint-brush
     color: purple
     title: UI Component Library
     details: Shared UI components with full light / dark theme support
-    link: /en-US/guide/custom-style
+
   - icon: globe-alt
     color: green
     title: Internationalization
     details: Built-in i18n for bilingual AI tutorials (EN / CN)
-    link: /en-US/guide/i18n
+
   - icon: device-phone-mobile
     color: orange
     title: Responsive Layout
     details: Fully adaptive for desktop, tablet and mobile devices
+
   - icon: bolt
     color: amber
     title: Blazing Fast Build
     details: Powered by Vite, smooth hot-reload development experience
-    link: https://vitejs.dev
-    target: _blank
+
   - icon: magnifying-glass
     color: indigo
     title: Local Full-text Search
     details: Built-in offline search for your knowledge base
-    link: /en-US/guide/search
+
 featuresConfig:
-  title: Why AI‑VP?
+  title: Why AIVST?
   description: VitePress ecosystem built specifically for AI tutorials & knowledge bases
   extraSection:
     title: Try It Now
@@ -70,7 +70,7 @@ quickStart:
   badge: 5 Minutes Setup
   title: Quick Start
   subtitle: Build AI Knowledge Documentation
-  description: Create your AI tutorial site in a few simple steps with AI‑VP
+  description: Create your AI tutorial site in a few simple steps with AIVST
   steps:
     - step: "01"
       icon: arrow-down-tray

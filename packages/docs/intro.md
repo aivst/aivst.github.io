@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 产品介绍
-description: AI‑VP，面向LLM、RAG、Agent知识库文档解决方案
+description: AIVST，面向LLM、RAG、Agent知识库文档解决方案
 heroIcon: "icon-[heroicons--heart]"
 heroColor: primary
 heroSize: md
@@ -10,7 +10,7 @@ maxWidth: max-w-7xl
 
 # 产品特性
 
-AI‑VP 是一套基于 VitePress 扩展的开源主题与组件集合，专门用来搭建 AI 技术知识库、LLM / RAG / Agent 教程站点。
+AIVST 是一套基于 VitePress 扩展的开源主题与组件集合，专门用来搭建 AI 技术知识库、LLM / RAG / Agent 教程站点。
 
 ## ✨ 主题能力
 

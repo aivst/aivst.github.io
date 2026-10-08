@@ -15,26 +15,26 @@ function mergeNoExternal(value: unknown): true | (string | RegExp)[] {
   if (Array.isArray(value)) {
     const hasNonString = value.some((item) => typeof item !== 'string')
     if (hasNonString) {
-      const exists = value.some((item) => item === '@ai-vp/vptheme')
-      return exists ? value.slice() : [...value, '@ai-vp/vptheme']
+      const exists = value.some((item) => item === '@aivst/vptheme')
+      return exists ? value.slice() : [...value, '@aivst/vptheme']
     }
-    return uniq([...value, '@ai-vp/vptheme'])
+    return uniq([...value, '@aivst/vptheme'])
   }
-  if (typeof value === 'string') return uniq([value, '@ai-vp/vptheme'])
-  if (value instanceof RegExp) return [value, '@ai-vp/vptheme']
-  return ['@ai-vp/vptheme']
+  if (typeof value === 'string') return uniq([value, '@aivst/vptheme'])
+  if (value instanceof RegExp) return [value, '@aivst/vptheme']
+  return ['@aivst/vptheme']
 }
 
 function mergeExclude(value?: string[]) {
   const list = Array.isArray(value) ? value : []
-  return uniq([...list, '@ai-vp/vptheme'])
+  return uniq([...list, '@aivst/vptheme'])
 }
 
 function mergeAlias(value?: AliasOptions): Alias[] {
   const aliasList: Alias[] = [
     {
       find: /^dayjs$/,
-      replacement: '@ai-vp/vptheme/shims/dayjs'
+      replacement: '@aivst/vptheme/shims/dayjs'
     },
     {
       find: /^dayjs\/plugin\//,
@@ -62,7 +62,7 @@ function mergeAlias(value?: AliasOptions): Alias[] {
   if (!hasSanitizeAlias) {
     aliasList.push({
       find: /^@braintree\/sanitize-url$/,
-      replacement: '@ai-vp/vptheme/shims/sanitize-url'
+      replacement: '@aivst/vptheme/shims/sanitize-url'
     })
   }
 

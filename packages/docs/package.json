@@ -1,5 +1,5 @@
 {
-  "name": "@ai-vp/vptheme-docs",
+  "name": "@aivst/vpdocs",
   "version": "1.0.0",
   "private": true,
   "description": "Documentation site for vp VitePress Theme",
@@ -10,7 +10,7 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
-    "@ai-vp/vptheme": "workspace:*",
+    "@aivst/vptheme": "workspace:*",
     "vitepress": "^1.6.4"
   },
   "devDependencies": {

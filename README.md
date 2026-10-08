@@ -6,15 +6,15 @@
   聚焦大模型、智能体、RAG、本地LLM与向量数据库实战教程
 </p>
 <p align="center">
-  <a href="https://ai-vp.github.io/" target="_blank">📖 在线知识库</a> ·
-  <a href="https://github.com/ai-vp" target="_blank">🏠 组织主页</a>
+  <a href="https://aivst.github.io/" target="_blank">📖 在线知识库</a> ·
+  <a href="https://github.com/aivst" target="_blank">🏠 组织主页</a> .
 </p>
 <p align="center">
   <strong>中文</strong> · <a href="./README.en.md">English</a>
 </p>
 <p align="center">
   <img alt="License" src="https://img.shields.io/badge/License-MIT-green.svg" />
-  <img alt="Stars" src="https://img.shields.io/github/stars/ai-vp?style=social" />
+  <img alt="Stars" src="https://img.shields.io/github/stars/aivst?style=social" />
 </p>
 
 ---
@@ -135,8 +135,8 @@ vibe coding 101｜AI原生产品开发入门课程
 
 ## 🚀 快速访问
 
-- 组织主页：https://github.com/ai-vp
-- 在线知识库：https://ai-vp.github.io/
+- 组织主页：https://github.com/aivst
+- 在线知识库：https://aivst.github.io/
 
 ## 🤝 参与贡献
 
@@ -153,5 +153,5 @@ vibe coding 101｜AI原生产品开发入门课程
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/ai-vp">AI‑VP Organization</a>
+  Made with ❤️ by <a href="https://github.com/aivst">AI‑VP Organization</a>
 </p>

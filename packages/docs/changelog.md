@@ -1,14 +1,14 @@
 ---
 layout: changelog
 title: 更新日志
-description: AI‑VP 主题与组件库的版本更新记录
+description: AIVST 主题与组件库的版本更新记录
 ---
 
-# AI‑VP 更新日志
+# AIVST 更新日志
 
 所有重要的项目更改都记录在此文件中。
-格式基于 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.0.0/)，
-并遵循 [语义化版本](https://semver.org/lang/zh-CN/) 规范。
+格式基于 [Keep a Changelog](https://keepachangelog.com/1.0.0/)，
+并遵循 [语义化版本](https://semver.org/lang/) 规范。
 
 ## [未发布]
 

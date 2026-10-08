@@ -1,7 +1,7 @@
 ---
 layout: sponsor
 title: Support Us
-description: Thank you for your help, please consider sponsoring AI‑VP
+description: Thank you for your help, please consider sponsoring AIVST
 paymentMethods:
   wechat:
     name: WeChat Pay
@@ -46,7 +46,7 @@ sponsors:
     date: "2024-01-13"
 ---
 
-# 🥇 Support AI‑VP
+# 🥇 Support AIVST
 
 Thanks for your donation and sponsorship. Wish you a successful career and every best wish. 🙏🙏🙏
 
@@ -68,7 +68,7 @@ You can sponsor us via the QR‑codes below. Any amount is a great encouragement
 ### Other Ways to Contribute
 
 - **Star our repositories** — Give stars to related GitHub projects
-- **Share & Recommend** — Recommend AI‑VP to your friends and colleagues
+- **Share & Recommend** — Recommend AIVST to your friends and colleagues
 - **Report Issues** — Help us find bugs in themes and documentation
 - **Contribute Code** — Submit Pull‑Requests to improve theme components
 - **Improve Docs** — Supplement and proofread AI‑related technical tutorials

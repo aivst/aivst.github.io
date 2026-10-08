@@ -4,9 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@ai-vp/vptheme': link:packages/theme
-
 importers:
 
   .:
@@ -20,8 +17,8 @@ importers:
 
   packages/docs:
     dependencies:
-      '@ai-vp/vptheme':
-        specifier: link:../theme
+      '@aivst/vptheme':
+        specifier: workspace:*
         version: link:../theme
       vitepress:
         specifier: ^1.6.4
